@@ -224,6 +224,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="CustomAuthenticationFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -242,6 +243,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CafeEntity.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\TokenClaim.cs" />
     <Compile Include="Models\User.cs">
       <DependentUpon>CafeEntity.tt</DependentUpon>
     </Compile>
